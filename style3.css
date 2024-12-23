@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    background-color: black;
+    height: 60px;
+    display: flex;
+}
+.logo{
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.logo h1{
+    color: red;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin-left: 25%;
+}
+.header ul li{
+    padding: 25px 15px ;
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    
+}
+.bodyy{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 600px;
+    margin-top: 10%;
+    margin-left: 7.5%;
+    color: white;
+}
+.left h6{
+    padding-bottom: 5px;
+    font-size: 1em;
+    color: red;
+}
+.left h1{
+    padding: 5px 0;
+    font-size: 2.5em;
+}
+.left p{
+    padding: 10px 0;
+
+}
+.btn{
+    margin-top: 3%;
+}
+.V{
+    padding: 10px 25px;
+    font-size: 1em;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.H{
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.right{
+    width: 600px;
+}
+.right img{
+    margin-top: -40px;
+    margin-left: -90px;
+}
+.header i{
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* ------------Page two------------------ */
+
+.main2{
+    background-color: cadetblue;
+    width: 100%;
+    height: 230vh;
+}
+.main2 h1{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 3em;
+    color: gold;
+    margin-bottom: 15px;
+}
+.main2 hr{
+    width: 175px;
+    margin-left: 42.7%;
+    border: 3px red solid;
+    margin-top: -13px;
+}
+.BoxContainer hr{
+    width: 180px;
+    margin-left: 42%;
+    border: 4px;
+    padding-top: -10px;
+}
+.boxx1{
+    background-color: rgb(178, 169, 169);
+    width: 320px;
+    height: 430px;
+    margin-left: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+.boxx1 img{
+    width: 300px;
+    height: 200px;
+    padding-left: 9.5px;
+    padding-top: 10px;
+    border-radius: 20px;
+
+    /* padding: 10px; */
+}
+.boxx1 h2{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 1.9em;
+    color: green;
+}
+.boxx1 p{
+    padding-top:10px ;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.an{
+    color: aliceblue;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.BoxContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+@media(max-width:500px){
+    .header{
+        padding: 5px 3px;
+    }.header ul{
+        display: none;
+    }.bodyy{
+        display: block;
+    }
+    .logo h1{
+        color: white;
+    }
+    .logo span{
+        color: red;
+    }
+    .left span{
+        color: red;
+    }
+    .V{
+        padding: 15px 120px;
+        font-size: 1.5em;
+    }
+    .V span{
+        color: black;
+        font-weight: bold;
+    }
+    .H{
+        padding: 15px 125px;
+        font-size: 1.6em;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .H span{
+        color: black;
+    }
+    .right img{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .header i{
+        display: block;
+        margin-left: 45%;
+    }
+    .main2{
+        background-color: black;
+    }
+    .main2 h1{
+        color: red;
+    }
+    .main2 hr{
+        margin-left:27%;
+        border: 3px white solid;
+    }
+    .boxx1 h2{
+        color: red;
+    }
+    .boxx1{
+        margin: 60px 40px;
+        box-shadow: 3px 5px 10px red;
+    }
+    .BoxContainer{
+        display: block;
+    }
+}

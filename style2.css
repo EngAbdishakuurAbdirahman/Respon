@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: cadetblue;
+    width: 100%;
+    height: 130vh;
+}
+.header{
+    background-color: aliceblue;
+    height: 70px;
+    display: flex;
+}
+
+.header ul {
+    display: flex;
+    margin-left: 40%;
+    margin-top: 10px;
+    gap: 60px;
+    list-style: none;
+}
+.header ul li a{
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    
+}
+.logo{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.boddy{
+    display: flex;
+    gap: 70px;
+}
+.left{
+    color: white;
+    padding-top: 10%;
+    margin-left: 7%;
+}
+.left h6{
+    padding-bottom: 5px;
+    font-size: 1em;
+}
+.left h1{
+    color: black;
+    font-size: 2.5em;
+}
+.left p{
+    padding-top: 10px;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    margin-top: 5%;
+}
+.P{
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: goldenrod;
+    border-radius:15px ;
+}
+.L{
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: green;
+    border-radius:15px ;
+}
+.right{
+    width: 600px;
+    height: 600px;
+}
+.right img{
+    width: 380px;
+    padding-top: 13%;
+}
+.header i{
+    display: none; 
+    font-size: 2em;
+    margin-left: 40px;
+    margin-top: 17px;
+}
+
+@media(Max-width:600px){
+    .header{
+        padding: 3px 5px;
+    }
+    .header ul{
+        display: none;
+    }
+    .header h1{
+        font-size: 1.9em;
+    }
+    .header i{
+        display: block;
+        padding-left: 15%;
+    }.boddy{
+        display: block;
+    }
+    .P{
+        padding: 15px 120px;
+        font-size: 2em;
+    }
+    .L{
+        padding: 15px 120px;
+        font-size: 1.3em;
+        margin-top: 10px;
+    }
+    .right img{
+        margin-top: -50px;
+        width: 300px;
+        margin-left: 20px;
+    }
+}
